@@ -1,0 +1,43 @@
+@media (max-width: 700px) {
+	.userSelection,
+	.userSuggestion,
+	.savedFood {
+		flex-direction: column;
+		justify-content: end;
+		align-items: center;
+		width: 80%;
+	}
+
+	.image {
+		width: 50vw;
+		height: 50vw;
+	}
+
+	h4 {
+	font-size: 25px;
+	}
+}
+
+@media (max-width: 500px) {
+	.wrapper {
+		width: 95%;
+	}
+	.userOptions {
+		button {
+			width: 80%;
+		}
+	}
+
+	.subBtn,
+	.saveBtn {
+		width: 80%;
+	}
+
+	select {
+		width: 70vw;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+}
